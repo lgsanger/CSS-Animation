@@ -1,0 +1,93 @@
+*{
+    margin: 10px;
+    background-color: #FFFF8F;
+}
+
+li{
+    list-style-type:none;
+}
+ul.nav li a {
+    display: block;
+    color: #b61c97;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.nav li a:hover {
+    background-color: #bd6e28;
+    color:#FFFF8F;
+  }
+@keyframes rotate-animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+p{
+    color: #b61c97;
+    position: relative;
+}
+
+.home-page-container {
+    height:100%;
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.circle1{
+    transform: rotate(0deg);
+    position: relative;
+    top: 100px;
+    left:200px;
+    width:300px;
+}
+.circle1:hover{
+    transform: rotate(180deg);
+    animation-name: rotate-animation;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+.circle1{
+    padding:30px;
+    height:80%;
+    width:50%;
+    display:inline-block;
+    right: 10px;
+    bottom: 10px;
+    background: linear-gradient(#e66465, #9198e5);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.circle2{
+    transform: rotate(0deg);
+    position: relative;
+    top: 100px;
+    left:200px;
+    width:300px;
+}
+.circle2:hover{
+    transform: rotate(180deg);
+    animation-name: rotate-animation;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+.circle2{
+    padding:30px;
+    height:80%;
+    width:50%;
+    display:inline-block;
+    right: 10px;
+    bottom: 10px;
+    background: linear-gradient(#9198e5, #e66465);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
