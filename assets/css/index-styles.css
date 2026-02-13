@@ -6,6 +6,10 @@
 
 /* class names */
 
+ul.nav {
+    list-style: none;
+}
+
 ul.nav li a {
     display: block;
     color: #b61c97;
